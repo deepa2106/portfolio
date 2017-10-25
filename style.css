@@ -1,21 +1,26 @@
 body {
   margin: 0px;
   margin-top: -16px;
+  font-family: cursive;
 }
 
-.container {
+.wrapper {
   width: 100%;
   margin: auto;
 }
 
 header {
-  background-color: lightblue;
-  opacity: 50%;
+  background-color: #FFA072;
   text-align: right;
   height: 150px;
   font-size: 40px;
   color: red;
   overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 li {
@@ -24,23 +29,42 @@ li {
   overflow: auto;
 }
 
+li:hover {
+  background-color: #FFEAE0;
+  border-radius: 5px;
+}
+
 h2 {
   padding: 20px;
   text-align: center;
 }
 
-.aboutme {
-  background-color: red;
+.maincontainer {
+  height: auto;
+  width: 100%
+}
+
+.container {
+  background-color: white;
+  opacity: 0.5;
+  height: auto;
+  width: 90%;
   margin: auto;
-  height: 200px;
+  border-radius: 5px;
+}
+
+.aboutme {
+  background-color: #4d94ff;
+  margin: auto;
+  height: auto;
   width: 50%;
   display: inline-block;
   float: left;
 }
 
 .experience {
-    background-color: purple;
-    height: 200px;
+    background-color: #4d4dff;
+    height: auto;
     width: 50%;
     display: inline-block;
     float: right;
@@ -49,7 +73,10 @@ h2 {
 footer {
   text-align: center;
   font-size: 30px;
-  background-color: green;
+  background-color: #FFA072;
+  color: red;
+  float: left;
+  width: 100%;
 }
 
 h3 {
