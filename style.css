@@ -23,13 +23,13 @@ a {
   color: inherit;
 }
 
-li {
+header li {
   display: inline-block;
   padding: 20px;
   overflow: auto;
 }
 
-li:hover {
+header li:hover {
   background-color: #FFEAE0;
   border-radius: 5px;
 }
@@ -51,6 +51,10 @@ h2 {
   width: 90%;
   margin: auto;
   border-radius: 5px;
+}
+
+.container p {
+  padding: 10px;
 }
 
 .aboutme {
