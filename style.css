@@ -2,6 +2,7 @@ body {
   margin: 0px;
   margin-top: -16px;
   font-family: cursive;
+
 }
 
 .wrapper {
@@ -16,6 +17,11 @@ nav {
   font-size: 40px;
   color: red;
   overflow: auto;
+  opacity: 0.5;
+}
+
+nav:hover {
+  opacity: 1;
 }
 
 a {
@@ -39,12 +45,16 @@ h2 {
   text-align: center;
 }
 
+.wrapper {
+  padding-top: 166px;
+}
+
 .maincontainer {
   height: auto;
   width: 100%
 }
 
-.container {
+.container2 {
   background-color: white;
   opacity: 0.5;
   height: auto;
@@ -53,12 +63,12 @@ h2 {
   border-radius: 5px;
 }
 
-.container p {
+.container2 p {
   padding: 10px;
 }
 
 .aboutme {
-  background-color: #4d94ff;
+  background-color: #0b4daf;
   margin: auto;
   height: auto;
   width: 60%;
@@ -72,6 +82,15 @@ h2 {
     width: 40%;
     display: inline-block;
     float: right;
+}
+
+.experience {
+  background-color: #4d94ff;
+  margin: auto;
+  height: auto;
+  width: 60%;
+  display: inline-block;
+  float: left;
 }
 
 footer {
@@ -88,13 +107,21 @@ h3 {
   display: inline-block;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   header {
     height: auto;
     font-size: 20px;
   }
 
+  nav li {
+    font-size: 20px;
+  }
+
   .aboutme {
+    width: 100%;
+  }
+
+  .experience {
     width: 100%;
   }
 
