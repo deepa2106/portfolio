@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-  background-color: #FFA072;
+  background-color: #e4d4d4;
   text-align: right;
   height: 150px;
   font-size: 40px;
@@ -26,12 +26,12 @@ nav li {
 }
 
 nav li:hover {
-  background-color: #FFEAE0;
+  background-color: #655a5a;
   border-radius: 5px;
 }
 
 .wrapper {
-background-color: #FFA072;
+background-color: #e4d4d4;
 }
 
 h2 {
@@ -53,13 +53,18 @@ h2 {
   border-radius: 5px;
 }
 
+img {
+  width: 200px;
+  float: right;
+}
+
 .container2 p {
   padding: 10px;
 }
 
 .block {
   height: 166px;
-  background-color: #FFA072;
+  background-color: #e4d4d4;
 }
 
 .aboutme {
@@ -89,7 +94,7 @@ h2 {
 footer {
   text-align: center;
   font-size: 30px;
-  background-color: #FFA072;
+  background-color: #e4d4d4;
   color: red;
   float: left;
   width: 100%;
