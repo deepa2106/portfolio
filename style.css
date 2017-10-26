@@ -2,7 +2,6 @@ body {
   margin: 0px;
   margin-top: -16px;
   font-family: cursive;
-
 }
 
 nav {
@@ -12,11 +11,7 @@ nav {
   font-size: 40px;
   color: red;
   overflow: auto;
-  opacity: 0.5;
-}
-
-nav:hover {
-  opacity: 1;
+  border-bottom: 10px black solid;
 }
 
 a {
@@ -33,6 +28,10 @@ nav li {
 nav li:hover {
   background-color: #FFEAE0;
   border-radius: 5px;
+}
+
+.wrapper {
+background-color: #FFA072;
 }
 
 h2 {
@@ -60,7 +59,7 @@ h2 {
 
 .block {
   height: 166px;
-  background-color: white;
+  background-color: #FFA072;
 }
 
 .aboutme {
@@ -69,6 +68,7 @@ h2 {
   height: auto;
   width: 100%;
   display: inline-block;
+
 }
 
 .skills {
@@ -93,10 +93,15 @@ footer {
   color: red;
   float: left;
   width: 100%;
+  border: 10px black solid;
 }
 
 h3 {
   padding: 10px;
+  display: inline-block;
+}
+
+footer li {
   display: inline-block;
 }
 
