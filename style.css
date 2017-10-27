@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+  margin-top: -16px;
+  font-family: cursive;
+}
+
+nav {
+  background-color: #e4d4d4;
+  text-align: right;
+  height: 150px;
+  font-size: 40px;
+  color: red;
+  overflow: auto;
+  border-bottom: 10px black solid;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px;
+  overflow: auto;
+}
+
+nav li:hover {
+  background-color: #655a5a;
+  border-radius: 5px;
+}
+
+.wrapper {
+background-color: #e4d4d4;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+}
+
+.maincontainer {
+  width: 900px;
+  margin: auto;
+}
+
+.container2 {
+  background-color: white;
+  opacity: 0.5;
+  height: auto;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+img {
+  width: 200px;
+  float: right;
+}
+
+.container2 p {
+  padding: 10px;
+}
+
+.block {
+  height: 166px;
+  background-color: #e4d4d4;
+}
+
+.aboutme {
+  background-color: #0b4daf;
+  margin: auto;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+
+}
+
+.skills {
+  background-color: #4d4dff;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+}
+
+.experience {
+  background-color: #4d94ff;
+  margin: auto;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  background-color: #e4d4d4;
+  color: red;
+  float: left;
+  width: 100%;
+  border: 10px black solid;
+}
+
+h3 {
+  padding: 10px;
+  display: inline-block;
+}
+
+footer li {
+  display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    height: auto;
+    font-size: 20px;
+  }
+
+  nav li {
+    font-size: 20px;
+  }
+
+  .maincontainer {
+    width: 100%;
+  }
+
+  .aboutme {
+    width: 100%;
+  }
+
+  .experience {
+    width: 100%;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  footer {
+    height: auto;
+    font-size: 20px
+  }
+}
